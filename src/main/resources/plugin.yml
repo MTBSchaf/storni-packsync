@@ -1,0 +1,15 @@
+name: PackSync
+version: 1.0.0
+main: de.storni.packsync.PackSync
+api-version: "26.1"
+folia-supported: true
+description: Verteilt das Resource Pack von GitHub und aktualisiert es automatisch.
+commands:
+  packsync:
+    description: Prueft sofort auf ein neues Resource Pack
+    usage: /packsync
+    permission: packsync.admin
+permissions:
+  packsync.admin:
+    description: Darf /packsync benutzen
+    default: op

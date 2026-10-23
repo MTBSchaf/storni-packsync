@@ -1,0 +1,17 @@
+# URL zur pack.zip (fester Link zum GitHub-Release)
+pack-url: "https://github.com/MTBSchaf/storni-pack/releases/download/latest/pack.zip"
+
+# URL zur pack.sha1 (enthaelt den SHA-1-Hash, 40 Zeichen)
+hash-url: "https://github.com/MTBSchaf/storni-pack/releases/download/latest/pack.sha1"
+
+# Wie oft (in Sekunden) auf ein neues Pack geprueft wird
+check-interval-seconds: 60
+
+# true = Spieler, die das Pack ablehnen oder bei denen der Download fehlschlaegt, werden gekickt
+force: true
+
+# Text im Download-Dialog (MiniMessage-Format)
+prompt: "<yellow>Storni Resource Pack</yellow>"
+
+# Kick-Nachricht bei force: true
+kick-message: "<red>Du musst das Server-Resource-Pack akzeptieren, um hier zu spielen.</red>"
